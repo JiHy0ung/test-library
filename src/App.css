@@ -1,0 +1,27 @@
+.full-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+}
+
+
+.lib-navbar{
+  background-color: white !important;
+  border-block: 1px solid whitesmoke;
+}
+
+.logo-img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.cn-library{
+  display: flex;
+}
+
+.library{
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 0.5rem;
+}
