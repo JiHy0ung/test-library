@@ -60,7 +60,7 @@ const AppLayout = () => {
               <Nav className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link onClick={goToMain}>메인</Nav.Link>
                 <Nav.Link onClick={goToMyBook}>나의 책</Nav.Link>
-                <Nav.Link onClick={goToLogin}>
+                <Nav.Link onClick={goToLogin} style={{color:'blue'}}>
                   {authenticate ? "로그아웃" : "로그인"}
                 </Nav.Link>
               </Nav>
@@ -68,7 +68,6 @@ const AppLayout = () => {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-
       <Outlet />
     </div>
   );
